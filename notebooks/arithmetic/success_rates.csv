@@ -1,73 +1,73 @@
 n,environment,adder,qubits,method,shots,success_rate,sim_depth,runtime_s
-3,Ideal,RCA,10,statevector,4096,1.0,18,0.01
+3,Ideal,RCA,10,statevector,4096,1.0,18,0.02
 3,Ideal,AQFT,7,statevector,4096,0.721435546875,16,0.01
 3,Ideal,QCLA,13,statevector,4096,1.0,11,0.01
-3,Depolarizing (p=0.01),RCA,10,matrix_product_state,4096,0.71826171875,85,1.9
-3,Depolarizing (p=0.01),AQFT,7,matrix_product_state,4096,0.685546875,32,0.8
-3,Depolarizing (p=0.01),QCLA,13,matrix_product_state,4096,0.8134765625,73,1.31
-3,Hardware (FakeKyiv),RCA,10,matrix_product_state,4096,0.595458984375,194,11.13
-3,Hardware (FakeKyiv),AQFT,7,matrix_product_state,4096,0.646484375,67,3.33
-3,Hardware (FakeKyiv),QCLA,13,matrix_product_state,4096,0.7880859375,133,4.54
-3,Hardware (FakeAachen),RCA,10,matrix_product_state,4096,0.782470703125,197,11.54
-3,Hardware (FakeAachen),AQFT,7,matrix_product_state,4096,0.681640625,82,4.75
-3,Hardware (FakeAachen),QCLA,13,matrix_product_state,4096,0.959228515625,170,6.05
-4,Ideal,RCA,13,statevector,4096,1.0,24,0.02
-4,Ideal,AQFT,9,statevector,4096,0.924072265625,20,0.02
-4,Ideal,QCLA,18,statevector,4096,1.0,15,0.03
-4,Depolarizing (p=0.01),RCA,13,matrix_product_state,4096,0.627197265625,117,3.04
-4,Depolarizing (p=0.01),AQFT,9,matrix_product_state,4096,0.779296875,40,1.44
-4,Depolarizing (p=0.01),QCLA,18,matrix_product_state,4096,0.6669921875,114,2.97
-4,Hardware (FakeKyiv),RCA,13,matrix_product_state,4096,0.51953125,261,17.61
-4,Hardware (FakeKyiv),AQFT,9,matrix_product_state,4096,0.665771484375,125,5.89
-4,Hardware (FakeKyiv),QCLA,18,matrix_product_state,4096,0.7880859375,246,11.63
-4,Hardware (FakeAachen),RCA,13,matrix_product_state,4096,0.76025390625,271,20.12
-4,Hardware (FakeAachen),AQFT,9,matrix_product_state,4096,0.821044921875,168,6.28
-4,Hardware (FakeAachen),QCLA,18,matrix_product_state,4096,0.909912109375,310,11.93
+3,Depolarizing (p=0.01),RCA,10,matrix_product_state,4096,0.71826171875,85,1.89
+3,Depolarizing (p=0.01),AQFT,7,matrix_product_state,4096,0.685546875,32,1.07
+3,Depolarizing (p=0.01),QCLA,13,matrix_product_state,4096,0.8134765625,73,1.29
+3,Hardware (FakeKyiv),RCA,10,matrix_product_state,4096,0.595458984375,194,9.72
+3,Hardware (FakeKyiv),AQFT,7,matrix_product_state,4096,0.646484375,67,2.73
+3,Hardware (FakeKyiv),QCLA,13,matrix_product_state,4096,0.7880859375,133,4.75
+3,Hardware (FakeAachen),RCA,10,matrix_product_state,4096,0.782470703125,197,9.78
+3,Hardware (FakeAachen),AQFT,7,matrix_product_state,4096,0.681640625,82,3.47
+3,Hardware (FakeAachen),QCLA,13,matrix_product_state,4096,0.959228515625,170,3.7
+4,Ideal,RCA,13,statevector,4096,1.0,24,0.01
+4,Ideal,AQFT,9,statevector,4096,0.924072265625,20,0.01
+4,Ideal,QCLA,18,statevector,4096,1.0,15,0.02
+4,Depolarizing (p=0.01),RCA,13,matrix_product_state,4096,0.627197265625,117,2.81
+4,Depolarizing (p=0.01),AQFT,9,matrix_product_state,4096,0.779296875,40,1.2
+4,Depolarizing (p=0.01),QCLA,18,matrix_product_state,4096,0.6669921875,114,2.61
+4,Hardware (FakeKyiv),RCA,13,matrix_product_state,4096,0.51953125,261,15.38
+4,Hardware (FakeKyiv),AQFT,9,matrix_product_state,4096,0.665771484375,125,4.74
+4,Hardware (FakeKyiv),QCLA,18,matrix_product_state,4096,0.7880859375,246,8.58
+4,Hardware (FakeAachen),RCA,13,matrix_product_state,4096,0.76025390625,271,19.62
+4,Hardware (FakeAachen),AQFT,9,matrix_product_state,4096,0.821044921875,168,5.44
+4,Hardware (FakeAachen),QCLA,18,matrix_product_state,4096,0.909912109375,310,10.66
 5,Ideal,RCA,16,statevector,4096,1.0,30,0.02
-5,Ideal,AQFT,11,statevector,4096,0.924072265625,24,0.01
-5,Ideal,QCLA,22,statevector,4096,1.0,15,0.18
-5,Depolarizing (p=0.01),RCA,16,matrix_product_state,4096,0.5517578125,149,3.43
-5,Depolarizing (p=0.01),AQFT,11,matrix_product_state,4096,0.7421875,48,1.95
-5,Depolarizing (p=0.01),QCLA,22,matrix_product_state,4096,0.61669921875,114,4.24
-5,Hardware (FakeKyiv),RCA,16,matrix_product_state,4096,0.50390625,328,29.91
-5,Hardware (FakeKyiv),AQFT,11,matrix_product_state,4096,0.615234375,155,7.04
-5,Hardware (FakeKyiv),QCLA,22,matrix_product_state,4096,0.84619140625,246,18.04
-5,Hardware (FakeAachen),RCA,16,matrix_product_state,4096,0.7392578125,345,29.43
-5,Hardware (FakeAachen),AQFT,11,matrix_product_state,4096,0.774658203125,208,8.93
-5,Hardware (FakeAachen),QCLA,22,matrix_product_state,4096,0.4765625,310,10.93
-6,Ideal,RCA,19,statevector,4096,1.0,36,0.04
+5,Ideal,AQFT,11,statevector,4096,0.924072265625,24,0.02
+5,Ideal,QCLA,22,statevector,4096,1.0,15,0.24
+5,Depolarizing (p=0.01),RCA,16,matrix_product_state,4096,0.5517578125,149,3.66
+5,Depolarizing (p=0.01),AQFT,11,matrix_product_state,4096,0.7421875,48,2.05
+5,Depolarizing (p=0.01),QCLA,22,matrix_product_state,4096,0.61669921875,114,3.97
+5,Hardware (FakeKyiv),RCA,16,matrix_product_state,4096,0.50390625,328,27.28
+5,Hardware (FakeKyiv),AQFT,11,matrix_product_state,4096,0.615234375,155,6.08
+5,Hardware (FakeKyiv),QCLA,22,matrix_product_state,4096,0.84619140625,246,14.24
+5,Hardware (FakeAachen),RCA,16,matrix_product_state,4096,0.7392578125,345,24.67
+5,Hardware (FakeAachen),AQFT,11,matrix_product_state,4096,0.774658203125,208,7.36
+5,Hardware (FakeAachen),QCLA,22,matrix_product_state,4096,0.4765625,310,9.04
+6,Ideal,RCA,19,statevector,4096,1.0,36,0.03
 6,Ideal,AQFT,13,statevector,4096,0.924072265625,28,0.02
 6,Ideal,QCLA,27,matrix_product_state,4096,1.0,17,0.03
-6,Depolarizing (p=0.01),RCA,19,matrix_product_state,4096,0.474365234375,181,4.42
-6,Depolarizing (p=0.01),AQFT,13,matrix_product_state,4096,0.69970703125,56,2.66
-6,Depolarizing (p=0.01),QCLA,27,matrix_product_state,4096,0.5068359375,137,5.91
-6,Hardware (FakeKyiv),RCA,19,matrix_product_state,4096,0.455322265625,395,45.86
-6,Hardware (FakeKyiv),AQFT,13,matrix_product_state,4096,0.564453125,185,9.7
-6,Hardware (FakeKyiv),QCLA,27,matrix_product_state,4096,0.603271484375,283,28.09
-6,Hardware (FakeAachen),RCA,19,matrix_product_state,4096,0.728759765625,419,38.38
-6,Hardware (FakeAachen),AQFT,13,matrix_product_state,4096,0.787841796875,248,9.89
+6,Depolarizing (p=0.01),RCA,19,matrix_product_state,4096,0.474365234375,181,3.73
+6,Depolarizing (p=0.01),AQFT,13,matrix_product_state,4096,0.69970703125,56,2.33
+6,Depolarizing (p=0.01),QCLA,27,matrix_product_state,4096,0.5068359375,137,4.74
+6,Hardware (FakeKyiv),RCA,19,matrix_product_state,4096,0.455322265625,395,35.24
+6,Hardware (FakeKyiv),AQFT,13,matrix_product_state,4096,0.564453125,185,7.12
+6,Hardware (FakeKyiv),QCLA,27,matrix_product_state,4096,0.603271484375,283,22.91
+6,Hardware (FakeAachen),RCA,19,matrix_product_state,4096,0.728759765625,419,31.99
+6,Hardware (FakeAachen),AQFT,13,matrix_product_state,4096,0.787841796875,248,10.27
 6,Hardware (FakeAachen),QCLA,27,matrix_product_state,4096,0.435302734375,363,24.33
-7,Ideal,RCA,22,statevector,4096,1.0,42,0.19
+7,Ideal,RCA,22,statevector,4096,1.0,42,0.2
 7,Ideal,AQFT,15,statevector,4096,0.924072265625,32,0.03
 7,Ideal,QCLA,31,matrix_product_state,4096,1.0,17,0.03
-7,Depolarizing (p=0.01),RCA,22,matrix_product_state,4096,0.41796875,213,5.7
-7,Depolarizing (p=0.01),AQFT,15,matrix_product_state,4096,0.670166015625,64,3.71
-7,Depolarizing (p=0.01),QCLA,31,matrix_product_state,4096,0.471435546875,137,8.58
-7,Hardware (FakeKyiv),RCA,22,matrix_product_state,4096,0.435546875,462,51.33
-7,Hardware (FakeKyiv),AQFT,15,matrix_product_state,4096,0.564208984375,215,9.99
-7,Hardware (FakeKyiv),QCLA,31,matrix_product_state,4096,0.6162109375,283,34.27
-7,Hardware (FakeAachen),RCA,22,matrix_product_state,4096,0.7255859375,493,41.63
-7,Hardware (FakeAachen),AQFT,15,matrix_product_state,4096,0.796630859375,288,10.55
-7,Hardware (FakeAachen),QCLA,31,matrix_product_state,4096,0.481689453125,363,20.95
+7,Depolarizing (p=0.01),RCA,22,matrix_product_state,4096,0.41796875,213,4.98
+7,Depolarizing (p=0.01),AQFT,15,matrix_product_state,4096,0.670166015625,64,3.01
+7,Depolarizing (p=0.01),QCLA,31,matrix_product_state,4096,0.471435546875,137,6.28
+7,Hardware (FakeKyiv),RCA,22,matrix_product_state,4096,0.435546875,462,48.13
+7,Hardware (FakeKyiv),AQFT,15,matrix_product_state,4096,0.564208984375,215,10.23
+7,Hardware (FakeKyiv),QCLA,31,matrix_product_state,4096,0.6162109375,283,32.02
+7,Hardware (FakeAachen),RCA,22,matrix_product_state,4096,0.7255859375,493,47.84
+7,Hardware (FakeAachen),AQFT,15,matrix_product_state,4096,0.796630859375,288,12.08
+7,Hardware (FakeAachen),QCLA,31,matrix_product_state,4096,0.481689453125,363,26.38
 8,Ideal,RCA,25,matrix_product_state,4096,1.0,48,0.03
 8,Ideal,AQFT,17,statevector,4096,0.98193359375,36,0.04
-8,Ideal,QCLA,37,matrix_product_state,4096,1.0,19,0.03
-8,Depolarizing (p=0.01),RCA,25,matrix_product_state,4096,0.36572265625,245,5.38
-8,Depolarizing (p=0.01),AQFT,17,matrix_product_state,4096,0.601806640625,72,4.54
-8,Depolarizing (p=0.01),QCLA,37,matrix_product_state,4096,0.38232421875,163,8.66
-8,Hardware (FakeKyiv),RCA,25,matrix_product_state,4096,0.347900390625,529,57.42
-8,Hardware (FakeKyiv),AQFT,17,matrix_product_state,4096,0.578369140625,245,16.74
-8,Hardware (FakeKyiv),QCLA,37,matrix_product_state,4096,0.621826171875,329,59.76
-8,Hardware (FakeAachen),RCA,25,matrix_product_state,4096,0.70166015625,567,51.3
-8,Hardware (FakeAachen),AQFT,17,matrix_product_state,4096,0.83349609375,328,17.79
-8,Hardware (FakeAachen),QCLA,37,matrix_product_state,4096,0.318359375,421,48.23
+8,Ideal,QCLA,37,matrix_product_state,4096,1.0,19,0.04
+8,Depolarizing (p=0.01),RCA,25,matrix_product_state,4096,0.36572265625,245,6.64
+8,Depolarizing (p=0.01),AQFT,17,matrix_product_state,4096,0.601806640625,72,5.69
+8,Depolarizing (p=0.01),QCLA,37,matrix_product_state,4096,0.38232421875,163,10.7
+8,Hardware (FakeKyiv),RCA,25,matrix_product_state,4096,0.347900390625,529,66.29
+8,Hardware (FakeKyiv),AQFT,17,matrix_product_state,4096,0.578369140625,245,24.62
+8,Hardware (FakeKyiv),QCLA,37,matrix_product_state,4096,0.621826171875,329,70.5
+8,Hardware (FakeAachen),RCA,25,matrix_product_state,4096,0.70166015625,567,58.09
+8,Hardware (FakeAachen),AQFT,17,matrix_product_state,4096,0.83349609375,328,20.66
+8,Hardware (FakeAachen),QCLA,37,matrix_product_state,4096,0.318359375,421,59.03
