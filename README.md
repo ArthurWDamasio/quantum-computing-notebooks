@@ -11,13 +11,25 @@ The material combines theoretical foundations with practical implementations, pr
   - Explanatory notebooks and derivations
 
 - **Jupyter Notebooks**
-  - `qiskit-lesson1.ipynb` — Introductory Qiskit concepts and basic quantum circuits
-  - `somador10qbits.ipynb` — Quantum adder implementation using multi-qubit registers
+  - `notebooks/basics/qiskit-lesson1.ipynb` — Introductory Qiskit concepts and basic quantum circuits
+  - `notebooks/arithmetic/somador10qbits.ipynb` — 3-qubit register adder
+  - `notebooks/arithmetic/ripple_carry_adder.ipynb` — n-qubit ripple-carry adder (VBE)
+  - `notebooks/arithmetic/qft-intro.ipynb` — QFT and approximate QFT (AQFT)
+  - `notebooks/arithmetic/qft-adder.ipynb` — QFT/AQFT Draper adders
+  - `notebooks/arithmetic/qadders-study.ipynb` — Comparison of quantum adders (RCA, QFT, AQFT, carry-lookahead): circuit metrics, routing depth and noisy success rates
+
+- **Arithmetic module** — `notebooks/arithmetic/qadders.py` holds all reusable gates (RCA, QFT/AQFT, Draper adders, carry-lookahead adder). Generated data lives in `results/`, exported plots in `figures/`.
 
 - **Small Projects**
   - Quantum algorithms and subroutines
   - Circuit constructions and simulations
   - Exploratory implementations related to quantum arithmetic and information processing
+
+## Setup
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Tools & Technologies
 
